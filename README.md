@@ -1,10 +1,10 @@
- **Airline Price Analysis & Visualization Project**
+ # Airline Price Analysis & Visualization Project
  
- **Objective:**
+ # Objective:
  
  As part of a hands-on data exploration project, I assumed the role of a data analyst working for a travel agency. The goal was to analyze a real-world airline dataset to understand the factors that influence flight pricing—particularly coach and first-class fares—and provide insights that can help clients secure better deals.
 
-**Dataset Overview**
+# Dataset Overview
 
 The dataset includes detailed information about flights across the following categories:
 
@@ -16,7 +16,7 @@ The dataset includes detailed information about flights across the following cat
 
 **Pricing Information:** coach_price, firstclass_price
 
-**Approach**
+# Approach
 
 **1. Data Exploration**
 Reviewed data types, checked for nulls, and generated summary statistics.
@@ -44,7 +44,7 @@ Boxplots
 
 Managed multiple plots using plt.show() and plt.clf() to keep visuals clean and organized.
 
-**Key Insights**
+# Key Insights
 
 1)First-class fares increase significantly with longer flights and value-added amenities.
 
@@ -54,7 +54,7 @@ Managed multiple plots using plt.show() and plt.clf() to keep visuals clean and 
 
 4)Flights with longer delays tend to show slightly reduced average pricing—possibly due to lower demand.
 
-**Tools & Libraries Used**
+# Tools & Libraries Used 
 **Python**
 
 **pandas – data manipulation**
@@ -63,5 +63,5 @@ Managed multiple plots using plt.show() and plt.clf() to keep visuals clean and 
 
 **Exploratory Data Analysis (EDA) techniques**
 
-**Outcome**
+# Outcome
 This project strengthened my data exploration and storytelling abilities—skills essential for a product. It sharpened my proficiency in identifying trends, segmenting users, and translating raw data into actionable business insights. Additionally, it helped me simulate the mindset of a data consultant delivering insights to internal or client-facing stakeholders.

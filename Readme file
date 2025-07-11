@@ -1,0 +1,57 @@
+ Airline Price Analysis & Visualization Project
+Objective:
+As part of a hands-on data exploration project, I stepped into the role of a data analyst working for a travel agency. My goal was to analyze a real-world airline dataset to understand what factors influence flight prices—particularly coach and first-class fares—and provide insights that could help clients secure better deals on flights.
+
+Dataset Overview:
+The dataset includes detailed flight information across several features:
+
+Flight Metrics: miles, hours, delay, passengers
+
+Amenities: inflight_meal, inflight_entertainment, inflight_wifi
+
+Timing Information: day_of_week, weekend, redeye
+
+Pricing Information: coach_price, firstclass_price
+
+Approach:
+
+Data Exploration:
+I began by getting familiar with the dataset—checking for data types, summary statistics, and potential anomalies.
+
+Univariate & Bivariate Analysis:
+
+Visualized the distribution of coach and first-class ticket prices.
+
+Explored how flight duration, mileage, and delays relate to pricing.
+
+Compared weekend vs. weekday pricing using bar plots and boxplots.
+
+Investigated the influence of flight amenities (like wifi, meals, and entertainment) on pricing using grouped analysis.
+
+Visualization Techniques:
+
+Used Matplotlib for plotting various types of graphs such as histograms, scatter plots, and boxplots.
+
+Ensured plots were rendered cleanly using plt.show() followed by plt.clf() to reset the plotting space.
+
+Key Insights:
+
+First-class fares increase significantly with longer flights and amenities.
+
+Coach prices vary more based on demand factors like day of the week and weekends.
+
+Redeye flights tend to be cheaper for both classes.
+
+Flights with delays showed a subtle dip in average price, possibly due to lower demand.
+
+Tools & Libraries Used:
+
+Python (pandas, matplotlib)
+
+Data visualization techniques
+
+Exploratory Data Analysis (EDA)
+
+Outcome:
+This project helped me sharpen my ability to explore unfamiliar datasets, generate insights through visualizations, and think analytically like a data consultant. It strengthened my EDA and storytelling skills—critical when working in client-facing roles or presenting to non-technical stakeholders.
+
